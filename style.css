@@ -1,0 +1,200 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body
+{
+
+    background-color: rgba(15, 22, 36, 1);
+}
+header{
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+
+    .header__nav{ 
+        display: flex;
+        justify-content: space-between;
+    
+    align-items: center;
+    font-size: 16px;
+    padding-top: 20px;
+ }
+    
+    .header__nav__list__ul li{
+        display: inline;
+        margin: 40px;
+    }
+    .header__nav__logo a{
+margin-left: 8px;        
+        
+        
+    }
+    .header__nav__logo{
+        display: flex;
+        align-items: center;
+        
+
+        
+    }
+    .header__nav__social img{
+        margin-left: 30px;
+    }
+    .header__info{
+    
+        margin: auto;
+        
+        display: flex;
+    }
+    .header__info__text{
+        margin-top: 150px;
+        
+        margin-left: 140px;
+    }
+    .header__info__drawing{
+        margin-top: 150px;
+        
+    }
+    h1{
+        font-size: 40px;
+    }
+    .header__info__text p{
+        padding-left: 29px;
+        font-size: 25px;
+        color: rgba(188, 188, 188, 1);
+        margin-top: 25px;
+    }
+    .header__info__text button{
+        background: linear-gradient(rgba(19, 173, 199, 1), rgba(105, 120, 209, 1), rgba(148, 93, 214, 1));
+        width: 180px;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        margin-left: 50px;
+        margin-top: 50px;
+
+
+    }
+    .section__projects{
+        max-width: 1100px;
+        margin: auto;
+        
+
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+        
+        
+        
+    
+    }
+    section{
+        
+        
+    }
+    .section__projects__info{
+        width: 380px;height: 410px;
+        border: 1px solid rgba(188, 188, 188, 1);
+        box-shadow: 2px 2px 5px 2px rgba(188, 188, 188, 1);
+        border-radius:30px 0px;
+        
+        
+        
+        
+    }
+    .section__projects__info img{
+        width: 350px;
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+    .section__projects__info button{
+        width: 130px;
+        height: 35px;
+        border-radius: 15px;
+        border: none;
+        background: linear-gradient(rgba(19, 173, 199, 1), rgba(105, 120, 209, 1), rgba(148, 93, 214, 1));
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .section__projects__info p{
+        margin-top: 20px;
+        
+        padding-top: 13px;
+        
+        
+    }
+    h2{
+        padding-left: 40px;
+padding-right: 40px;        
+        border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    display: inline;
+    margin-left: 75px;
+    border-image: linear-gradient(rgba(19, 173, 199, 1), rgba(105, 120, 209, 1), rgba(148, 93, 214, 1));
+    border-image-slice: 2;
+
+    
+
+        
+    }
+    .projects{
+        max-width: 1200px;
+        margin: auto;
+        font-size: 35px;
+    }
+    .skills{
+        background-color: rgba(22, 41, 80, 1);
+        width: 90%;
+        border-radius: 20px;
+
+}
+    .skillls{
+        width: 80%;
+        background: linear-gradient(rgba(19, 173, 199, 1), rgba(105, 120, 209, 1), rgba(148, 93, 214, 1));
+        font-size: 30px;
+        display: block;
+        height: 32px;
+        border-radius: 20px;
+    
+        
+    }
+    .section__technologies{
+        max-width: 1150px;
+        background-color: aqua;
+        margin: auto;
+    
+
+    padding-top: 150px;
+    }
+    main{
+        max-width: 1280px;
+        
+        background-color: blue;
+    margin: auto;}
+    .section__technologies p{
+        margin-top: 60px;
+        
+    
+    }
+    .beginner{
+        padding-right: 130px;
+        font-size: 20px;
+        padding-top: 20px;
+    
+        
+    }
+    .htmlbeginner{
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    
